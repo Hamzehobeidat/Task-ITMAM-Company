@@ -1,0 +1,375 @@
+* {
+	    box-sizing: border-box;
+}
+
+	.container-fluid{
+		padding: 0;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+
+
+
+
+
+.home	{
+	background-image: url("../img/slide2.jpg");
+	background-size: cover;
+	position: relative;
+	margin-bottom: 0;
+}
+
+
+
+
+	 .digitalabout {
+		 display: block;
+		 overflow: hidden;
+		 padding: 0;
+		 background-color: #008ab4;
+		 margin: 0;
+     max-width: 900px
+	 }
+
+	 .digitalabout .box {
+       display: inline-block;
+    float: left;
+    margin: 0;
+   
+    line-height: 112px;
+    margin: 0;
+    font-size: 30px;
+    color: #FFFFFF;
+    overflow: hidden;
+    text-align: center;
+    line-height: 124px;
+    height: 146px;
+	}
+
+  .digitalabout .box.box1{
+    background-color: #000
+  }
+
+      @media (max-width:576px) {
+ .digitalabout .box1{
+   
+    flex: left;
+  }
+
+  .digitalabout .box2{
+   
+    float: right;
+  }
+
+}
+
+ @media (max-width: 768px) {
+ .digitalabout .box1{
+   
+    flex: left;
+  }
+
+  .digitalabout .box2{
+   
+    float: right;
+  }
+  
+ }
+
+
+
+  .digitalabout .box:hover {
+    background-color: #000
+  }
+
+	.digitalabout .container-fluid{
+
+    margin: auto;
+    position: relative
+	}
+
+		 #Who {
+			     background-color: #000;
+    color: #fff;
+    position: absolute;
+    height: 66px;
+    width: 450px;
+    right: 0;
+    bottom: -66px;
+    font-size: 35px;
+    line-height: 69px;
+}
+
+ #Who p {
+	margin-left: 24px
+}
+
+@media (max-width:991px) {
+    #Who {
+
+    width: 100%;
+		margin-top: 50px;
+    text-align: center;
+
+}
+
+
+		
+		/*
+
+		.what-we-offer {
+          overflow: hidden;
+          padding: 0;
+          margin: 0;
+
+		}
+
+		.what-we-offer .divRL {
+			position: relative;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+		}
+
+        .container-fluid {
+        padding: 0;
+        margin: 0;
+      }
+
+		.what-we-offer .divl {
+          color: #000;
+          padding: 45px;
+          padding-left: 55px;
+          padding-bottom: 0px;
+          font-size: 13px;
+		}
+
+		.what-we-offer .divr {
+         color: #000;
+        padding: 45px;
+        padding-left: 55px;
+        padding-bottom: 0px;
+        font-size: 13px;
+
+         }
+
+				 .divimg {
+					 padding: 0;
+					 margin: 0;
+
+				 }
+
+
+		.what-we-offer  #what {
+			padding: 5%;
+	width: 411px;
+	height: 26px;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	background-color: black;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 5px;
+	font-weight: 900;
+	font-size: 35px;
+
+		}
+
+
+
+		.what-we-offer button {
+			padding: 7px;
+    border-style: hidden;
+    background-color: #5d5c5c;
+    color: #FFFFFF;
+    width: 110px;
+    margin-left: 47px;
+
+		}
+
+
+    @media (max-width : 991px) {
+      .what-we-offer button {
+       margin: 60px auto;
+       display: block;
+      }
+
+      .what-we-offer  #what {
+
+          width: 100%;
+          height: 90px;
+
+          position: absolute;
+          background-color: black;
+          color: #FFFFFF;
+          font-size: 30px;
+          text-align: center;
+          line-height: 37px;
+      }
+
+
+    }
+
+  
+
+		.what-we-offer  .top-left {
+			color: #000;
+			font-weight: normal;
+			font-size: 40px;
+			line-height: 1;
+			position: absolute;
+			 top: 70px;
+			 margin-left: 30px
+		}
+		.what-we-offer .col-md-4 img{
+      max-width: 100%;
+      height: 100%;
+		}
+
+		.row {
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+      margin-right: 0;
+      padding: 0;
+      margin-left: 0;
+		}
+
+ 
+
+		.what-we-offer {
+          overflow: hidden;
+          padding: 0;
+          margin: 0;
+
+		}
+
+		.what-we-offer .divRL {
+			position: relative;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+		}
+
+        .container-fluid {
+        padding: 0;
+        margin: 0;
+      }
+
+		.what-we-offer .divl {
+          color: #000;
+          padding: 45px;
+          padding-left: 55px;
+          padding-bottom: 0px;
+          font-size: 13px;
+		}
+
+		.what-we-offer .divr {
+         color: #000;
+        padding: 45px;
+        padding-left: 55px;
+        padding-bottom: 0px;
+        font-size: 13px;
+
+         }
+
+				 .divimg {
+					 padding: 0;
+					 margin: 0;
+
+				 }
+
+
+		.what-we-offer  #what {
+			padding: 5%;
+	width: 411px;
+	height: 26px;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	background-color: black;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 5px;
+	font-weight: 900;
+	font-size: 35px;
+
+		}
+
+
+
+		.what-we-offer button {
+			padding: 7px;
+    border-style: hidden;
+    background-color: #5d5c5c;
+    color: #FFFFFF;
+    width: 110px;
+    margin-left: 47px;
+
+		}
+*/
+
+   /*Start @media */
+    @media (max-width : 991px) {
+      .what-we-offer button {
+       margin: 60px auto;
+       display: block;
+      }
+
+      .what-we-offer  #what {
+
+          width: 100%;
+          height: 90px;
+
+          position: absolute;
+          background-color: black;
+          color: #FFFFFF;
+          font-size: 30px;
+          text-align: center;
+          line-height: 37px;
+      }
+
+
+    }
+
+   
+
+		.what-we-offer  .top-left {
+			color: #000;
+			font-weight: normal;
+			font-size: 40px;
+			line-height: 1;
+			position: absolute;
+			 top: 70px;
+			 margin-left: 30px
+		}
+		.what-we-offer .col-md-4 img{
+      max-width: 100%;
+      height: 100%;
+		}
+
+		.row {
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+      margin-right: 0;
+      padding: 0;
+      margin-left: 0;
+		}
+
+  
+
+
+	
+
+
+
+
